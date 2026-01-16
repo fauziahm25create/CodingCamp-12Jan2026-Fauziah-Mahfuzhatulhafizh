@@ -541,13 +541,24 @@ textarea.error-border {
   margin-top: 40px;
 }
 
-@media (max-width: 768px) {
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .section {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 60px 20px;
+  }
 
   .navbar {
+    width: 100%;
+    padding: 15px 20px;
     flex-direction: column;
     align-items: center;
-    padding: 15px 20px;
-    gap: 15px;
+    gap: 12px;
   }
 
   .navbar ul {
@@ -576,11 +587,14 @@ textarea.error-border {
 
   .skill-container {
     width: 100%;
+    max-width: 100%;
+    margin: 60px 0;
     padding: 30px 20px;
-    margin: 80px auto;
   }
 
   .skill-list {
+    width: 100%;
+    max-width: 100%;
     padding: 20px 15px;
   }
 
@@ -597,4 +611,3 @@ textarea.error-border {
   .message .connect-desc {
     font-size: 18px;
   }
-}
