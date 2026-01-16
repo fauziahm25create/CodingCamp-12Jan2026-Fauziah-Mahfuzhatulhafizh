@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FM Digital Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<nav class="navbar">
+  <div class="logo-wrapper">
+    <div class="logo-circle">FM</div>
+    <h2 class="logo">FM Digital Solutions</h2>
+  </div>
+
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#profile">Profile</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skill">Skill</a></li>
+    <li><a href="#message">Contact</a></li>
+  </ul>
+</nav>
+
+<section id="home" class="home section">
+  <h1 class="home-title">
+  <span id="welcomeText">Let's Grow Your Digital Work Smarter With Us Stäries!</span>
+  <span class="star">✨</span></h1>
+  <p>Administrative • Data • Creative Digital Solutions</p>
+
+  <div class="input-group">
+    <input type="text" id="nameInput" placeholder="Your name...">
+    <button onclick="setName()">Say Hi 👋</button>
+  </div>
+</section>
+
+<section id="profile" class="profile section">
+  <img id="banner" src="https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=1200&q=80" class="banner">
+
+<script>
+  const banners = [
+    "https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+    "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"
+  ];
+
+  let current = 0;
+
+  function changeBanner() {
+    current = (current + 1) % banners.length;
+    document.getElementById("banner").src = banners[current];
+  }
+
+  // Ganti banner tiap 5 detik
+  setInterval(changeBanner, 5000);
+</script>
+
+ <h2>About Us</h2>
+  <p>
+    FM Digital Solutions provides digital administrative, data processing, and creative
+    support using tools such as Canva, Microsoft Office, Google Workspace, and
+    collaboration platforms. We help individuals, students, and organizations work
+    more efficiently, neatly, and professionally in their daily digital tasks.
+  </p>
+
+ <div class="vision-mission">
+  <div>
+    <h3>🌈 Vision</h3>
+    <p>
+      To become a reliable and creative digital partner that supports efficient,
+      organized, and modern work processes.
+    </p>
+  </div>
+
+  <div>
+    <h3>🚀 Mission</h3>
+    <ul>
+      <li>Provide structured and professional document management</li>
+      <li>Support accurate data processing and reporting</li>
+      <li>Create engaging visual and digital content</li>
+      <li>Facilitate effective collaboration using digital tools</li>
+    </ul>
+  </div>
+</div>
+</section>
+
+<section id="services" class="services section">
+  <h2 class="our-services">Our Services</h2>
+
+  <div class="service-list">
+    <div class="service-card">
+      <h3>🎨 Digital Design</h3>
+      <p>
+        Visual content creation such as posters, social media designs,
+        presentations, and event materials using Canva and CapCut.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>📄 Document Management</h3>
+      <p>
+        Professional document preparation and formatting using Microsoft Word
+        and Google Docs for academic and organizational needs.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>📊 Data Processing</h3>
+      <p>
+        Administrative and financial data processing, reporting, and summaries
+        using Microsoft Excel and Google Sheets.
+      </p>
+    </div>
+
+    <div class="service-card">
+      <h3>🤝 Digital Collaboration</h3>
+      <p>
+        Task management, brainstorming, and cloud-based collaboration using
+        Google Drive, Trello, and Padlet.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skill" class="skills section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-list">
+                <a href="#canva" class="skill canva">Canva</a>
+                <a href="#microsoft-word" class="skill word">Microsoft Word</a>
+                <a href="#microsoft-excel" class="skill excel">Microsoft Excel</a>
+                <a href="#google-docs" class="skill docs">Google Docs</a>
+                <a href="#google-sheets" class="skill sheets">Google Sheets</a>
+                <a href="#google-workspace" class="skill workspace">Google Workspace</a>
+                <a href="#google-drive" class="skill drive">Google Drive</a>
+                <a href="#padlet" class="skill padlet">Padlet</a>
+                <a href="#trello" class="skill trello">Trello</a>
+                <a href="#capcut" class="skill capcut">CapCut</a>
+            </div>
+</section>
+
+<div id="canva" class="skill-container theme-canva section">
+  <h1>Canva</h1>
+  <p class="subtitle">Design • Visual Content • Branding</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Canva untuk membuat poster, konten media sosial,
+      presentasi, dan kebutuhan visual organisasi maupun akademik.
+    </p>
+
+    <ul>
+      <li>Poster & Feed Instagram</li>
+      <li>Presentasi</li>
+      <li>Infografis</li>
+      <li>Desain Event</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="microsoft-word" class="skill-container theme-word section">
+  <h1>Microsoft Word</h1>
+  <p class="subtitle">Document Formatting • Academic Writing</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Microsoft Word untuk penyusunan dokumen formal
+      seperti laporan akademik, surat resmi, proposal, dan LPJ
+      dengan format yang konsisten dan profesional.
+    </p>
+
+    <ul>
+      <li>Penggunaan heading & style</li>
+      <li>Pengaturan margin, spasi, dan layout</li>
+      <li>Daftar isi otomatis</li>
+      <li>Penulisan dokumen formal</li>
+      <li>Penyesuaian template instansi</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="microsoft-excel" class="skill-container theme-excel section">
+  <h1>Microsoft Excel</h1>
+  <p class="subtitle">Data Processing • Analysis • Reporting</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Microsoft Excel untuk mengolah data administrasi,
+      keuangan, dan laporan secara terstruktur dan akurat.
+    </p>
+
+    <ul>
+      <li>Pengolahan data administrasi & keuangan</li>
+      <li>Rumus dasar (SUM, IF, VLOOKUP)</li>
+      <li>Tabel & laporan bulanan</li>
+      <li>Sorting & filtering data</li>
+      <li>Diagram sederhana</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="google-docs" class="skill-container theme-docs section">
+  <h1>Google Docs</h1>
+  <p class="subtitle">Online Collaboration • Document Management</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Google Docs untuk melakukan kolaborasi tim dalam penyusunan
+      dokumen organisasi dan akademik secara daring.
+    </p>
+
+    <ul>
+      <li>Kolaborasi real-time</li>
+      <li>Komentar & suggesting</li>
+      <li>Manajemen versi</li>
+      <li>Sinkronisasi Drive</li>
+      <li>Laporan kegiatan</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="google-sheets" class="skill-container theme-sheets section">
+  <h1>Google Sheets</h1>
+  <p class="subtitle">Collaboration • Online Data • Automation</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Google Sheets untuk pengolahan data berbasis online
+      yang membutuhkan kolaborasi tim.
+    </p>
+
+    <ul>
+      <li>Kolaborasi real-time</li>
+      <li>Rumus spreadsheet</li>
+      <li>Rekap keuangan</li>
+      <li>Cloud-based data</li>
+      <li>Sharing akses</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="google-workspace" class="skill-container theme-workspace section">
+  <h1>Google Workspace</h1>
+  <p class="subtitle">Collaboration • Productivity • Cloud Tools</p>
+
+  <div class="content">
+    <p>
+      Penggunaan fitur-fitur Google Workspace untuk mendukung kolaborasi tim,
+      pengelolaan dokumen, dan produktivitas kerja secara terintegrasi
+      berbasis cloud.
+    </p>
+
+    <ul>
+      <li>Kolaborasi real-time melalui Google Docs & Sheets</li>
+      <li>Manajemen file dan folder menggunakan Google Drive</li>
+      <li>Pengaturan akses dan sharing dokumen</li>
+      <li>Sinkronisasi kerja lintas perangkat</li>
+      <li>Efisiensi kerja tim berbasis cloud</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="google-drive" class="skill-container theme-drive section">
+  <h1>Google Drive</h1>
+  <p class="subtitle">Cloud Storage • File Sharing • Collaboration</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Google Drive sebagai media penyimpanan dan
+      pengelolaan dokumen berbasis cloud.
+    </p>
+
+    <ul>
+      <li>Manajemen file cloud</li>
+      <li>Pengaturan akses</li>
+      <li>Kolaborasi lintas perangkat</li>
+      <li>Arsip dokumen</li>
+      <li>Integrasi Google Workspace</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="padlet" class="skill-container theme-padlet section">
+  <h1>Padlet</h1>
+  <p class="subtitle">Collaboration • Brainstorming • Learning Media</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Padlet sebagai media kolaborasi dan diskusi
+      dalam kegiatan pembelajaran dan organisasi.
+    </p>
+
+    <ul>
+      <li>Diskusi kelompok</li>
+      <li>Brainstorming</li>
+      <li>Pengumpulan tugas</li>
+      <li>Media interaktif</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="trello" class="skill-container theme-trello section">
+  <h1>Trello</h1>
+  <p class="subtitle">Task Management • Productivity • Workflow</p>
+
+  <div class="content">
+    <p>
+      Penggunaaan fitur-fitur Trello untuk mengatur tugas dan memantau progres
+      proyek individu maupun tim.
+    </p>
+
+    <ul>
+      <li>Manajemen tugas</li>
+      <li>Monitoring progres</li>
+      <li>Kolaborasi tim</li>
+      <li>Perencanaan proyek</li>
+    </ul>
+
+    <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<div id="capcut" class="skill-container theme-capcut section">
+  <h1>CapCut</h1>
+  <p class="subtitle">Video Editing • Motion Content • Digital Media</p>
+
+  <div class="content">
+    <p>
+      Penggunaan fitur-fitur CapCut untuk mengedit video pendek dan konten visual
+      digital yang menarik, baik untuk media sosial, presentasi, maupun kebutuhan
+      promosi organisasi.
+    </p>
+
+    <ul>
+      <li>Editing video pendek (Reels, Shorts, TikTok)</li>
+      <li>Penambahan teks, transisi, dan efek visual</li>
+      <li>Sinkronisasi audio dan musik</li>
+      <li>Konten video promosi & dokumentasi</li>
+    </ul>
+
+  <a href="#skill" class="back-btn">⬅ Kembali ke Skills</a>
+  </div>
+</div>
+
+<section id="message" class="message section">
+  <h2>Let's Connect 💌</h2>
+
+  <p class="connect-desc">
+    Feel free to reach out for collaboration, inquiries, or digital support. 
+    We'd be happy to connect and discuss potential ways to work together.</p>
+
+  <form onsubmit="return validateForm()">
+    <input type="text" id="name" placeholder="Name">
+    <small class="error" id="nameError"></small>
+
+    <input type="email" id="email" placeholder="Email">
+    <small class="error" id="emailError"></small>
+
+    <input type="tel" id="phone" placeholder="Phone Number">
+    <small class="error" id="phoneError"></small>
+
+    <textarea id="messageText" placeholder="Your Message"></textarea>
+    <small class="error" id="messageError"></small>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <div id="result" class="result"></div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 FM Digital Solutions • Fauziah Mahfuzhatulhafizh</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
