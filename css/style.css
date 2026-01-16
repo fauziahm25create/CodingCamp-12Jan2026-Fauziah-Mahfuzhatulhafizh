@@ -113,7 +113,7 @@ section h2 {
 }
 
 .home p {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', Georgia;
   margin: 15px 0;
   font-size: 22px;
   font-weight: 500;
@@ -174,7 +174,7 @@ button {
   margin-bottom: 30px;
 }
 .profile h2 {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Georgia', fantasy;
   text-align: center;
   font-size: 45px;
   font-weight: 700;
@@ -182,7 +182,7 @@ button {
 }
 
 .profile p {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Georgia', fantasy;
   font-size: 22px;
   line-height: 1.8;
   margin-bottom: 50px;
@@ -197,7 +197,7 @@ button {
 }
 
 .vision-mission h3 {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Georgia', fantasy;
   font-weight: 600;
   font-size: 40px;
   margin-bottom: 10px;
@@ -205,7 +205,7 @@ button {
 
 .vision-mission p,
 .vision-mission ul {
-  font-family: 'Satisfy', cursive; 
+  font-family: 'Georgia', fantasy; 
   font-size: 22px; 
   line-height: 1.8; 
   margin: 0; 
@@ -215,10 +215,11 @@ button {
 .vision-mission ul li {
   margin-bottom: 10px;
   font-size: 22px;
+  font-family: 'Georgia', fantasy; 
 }
 
 .our-services {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Georgia', fantasy;
   text-align: center;
   font-size: 45px;
   font-weight: 700;
@@ -251,7 +252,7 @@ button {
 }
 
 .section-title {
-  font-family: 'Parisienne', cursive;
+  font-family: 'Georgia', fantasy;
   text-align: center;
   font-size: 45px;
   font-weight: 700;
@@ -487,14 +488,14 @@ background: linear-gradient(180deg, #6c066e, #8205a1, #c001ff, #8a05a1,#4f0a72);
 }
 
 .message h2 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Georgia', fantasy;
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .message .connect-desc {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Georgia', fantasy;
   font-size: 22px;
   line-height: 1.8;
   text-align: justify;
