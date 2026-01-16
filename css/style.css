@@ -119,6 +119,7 @@ section h2 {
   margin: 15px 0;
   font-size: 22px;
   font-weight: 500;
+  text-shadow: 0 0 1px #00000079;
 }
 
 .input-group {
@@ -185,10 +186,11 @@ button {
 
 .profile p {
   font-family: 'Georgia', fantasy;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.8;
   margin-bottom: 50px;
   text-align: justify;
+  text-shadow: 0 0 1px #00000079;
 }
 
 .vision-mission {
@@ -208,16 +210,18 @@ button {
 .vision-mission p,
 .vision-mission ul {
   font-family: 'Georgia', fantasy; 
-  font-size: 22px; 
+  font-size: 24px; 
   line-height: 1.8; 
   margin: 0; 
   padding-left: 20px;
+  text-shadow: 0 0 1px #00000079;
 }
 
 .vision-mission ul li {
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Georgia', fantasy; 
+  text-shadow: 0 0 1px #00000079;
 }
 
 .our-services {
@@ -502,6 +506,7 @@ background: linear-gradient(180deg, #6c066e, #8205a1, #c001ff, #8a05a1,#4f0a72);
   line-height: 1.8;
   text-align: justify;
   margin-bottom: 40px;
+  text-shadow: 0 0 1px #00000079;
 }
 
 .message form {
